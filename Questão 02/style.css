@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background-color: #f2e988;
+}
+.author-image{
+  border-radius: 1rem;
+}
+.container{
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.main-text{
+  font-family: 'Poppins', sans-serif;
+
+  margin: 4rem;
+  line-height: 2rem;
+}
+.container p{
+  text-align: center;
+}
+h1{
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+}

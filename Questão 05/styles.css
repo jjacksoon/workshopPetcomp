@@ -1,0 +1,45 @@
+.table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.table td {
+  border-color: #fff;
+  border-style: solid;
+  border-width: 2px;
+  font-size: 14px;
+  overflow: hidden;
+  padding: 10px 5px;
+  word-break: normal;
+}
+.table th {
+ background-color: #03396c;
+ color: #fff;
+}
+
+#line-1 td{
+ background-color: #319acf;
+ text-align: center;
+ font-weight: bold;
+}
+
+#line-2 td:nth-child(3n+1){
+  background-color: #DCDCDC;
+}
+
+#line-2 td{
+ background-color: #0fabb7;
+ text-align: center;
+}
+
+#line-3 td:nth-child(3n+1){
+  background-color: #DCDCDC;
+}
+
+#line-3 td{
+  background-color: #0fabb7;
+ text-align: center;
+}
+
+

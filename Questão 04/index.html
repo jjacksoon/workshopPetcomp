@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Questão 04</title>
+  </head>
+  <body>
+    <h1>Ficha Cadastral</h1>
+    <form class="form">
+      <div class="content">
+        <label for="nome">Nome:</label>
+        <input class="size-box" type="text" maxlength="55" />
+      </div>
+
+      <div class="content">
+        <div class="data-info">
+          <label for="rg">RG:</label>
+          <input type="text" maxlength="13" />  
+        </div>
+        <div class="data-info">
+          <label for="rg">CPF:</label>
+          <input type="text" maxlength="13" />  
+        </div>
+      </div>
+
+      <div class="content">
+        <label for="endereco">Endereço:</label>
+        <input class="size-box"type="text" maxlength="55" />
+      </div>
+
+      <div class="content">
+        <div class="data-info">
+          <label for="sexo">Sexo:</label>
+          <select name="sexo">
+            <option value="masculino">Masculino</option>
+            <option value="feminino">Faminino</option>
+          </select>
+        </div>
+
+        <div class="data-info">
+          <label for="data-nascimento">Data de nascimento:</label>
+          <input type="text" maxlength="13" />
+        </div>
+      </div>
+
+      <div class="radio-field">
+        <label for="situacao-civil">Situação Civil</label>
+        <div id="radio-options">
+          <input type="radio" name="" id=""/><p>Solteiro(a)</p>
+          <input type="radio" name="" id="" /><p>Casado(a)</p>
+          <input type="radio" name="" id="" /><p>Viúvo(a)</p>
+        </div>
+      </div>
+
+      <button class="submit-button" type="reset">Limpar Dados</button>
+    </form>
+  </body>
+</html>
